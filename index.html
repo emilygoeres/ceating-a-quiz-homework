@@ -1,15 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Timers and Intervals</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>  
-    <h1 class="time"></h1>
-    <div id="main"></div>
 
-    <script src="./script.js"></script>
+<body>
+    <!-- Title for webpage -->
+    <h1>WELCOME TO THE QUIZ</h1>
+
+    <button id="start">START QUIZ</button>
+
+
+    <!-- arrows to go to the next question -->
+    <div class="carouselbox">
+        <div id="game">
+            <div id="navbuttons" class="buttons">
+                <button class="prev">
+                    ◀ Previous
+                </button>
+                <button class="next">
+                    Next ▶
+                </button>
+            </div>
+            <div class="questioncontainer">
+                <h6 id="question"></h6>
+                <button data-value="a" id="option1"></button>
+                <button data-value="b" id="option2"></button>
+                <button data-value="c" id="option3"></button>
+                <button data-value="d" id="option4"></button>
+
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Once quiz is over, add you first and last name and score to be recorded -->
+    <form id="HighScores">
+        <input type="text" id="HighScores" placeholder="First Name">
+        <input type="text" id="HighScores" placeholder="Last Name">
+        <input type="text" id="HighScores" placeholder="Score">
+        <button id='submitBtn'>Submit!</button>
+    </form>
+    <!-- Quiz is timed, added a timer -->
+    <header>
+        <h1>Timer</h1>
+    </header>
+    <div class="container">
+        <div class="timer">
+            <div id="hand"></div>
+            <div class="controls">
+                <label class="switch" for="status-toggle">
+                    <input checked type="checkbox" name="status-toggle" id="status-toggle" />
+                    <span class="slider"></span>
+                </label>
+                <div class="status">Status: <span id="status">Working</span></div>
+                <div class="time">
+                    <div id="minutes">5</div>
+                    <div id="seconds">00</div>
+                </div>
+                <div class="buttons">
+                    <button aria-label="play" id="play">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                    </button>
+                    <button aria-label="pause" id="pause">
+                        <i class="fa fa-pause" aria-hidden="true"></i>
+                    </button>
+                    <button aria-label="stop" id="stop">
+                        <i class="fa fa-stop" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="inputs">
+                <div class="input-group">
+                    <label for="work-minutes">Minutes of Work</label>
+                    <input type="number" name="work" id="work-minutes" value="5" />
+                </div>
+                <div class="input-group">
+                    <label for="rest-minutes">Minutes of Rest</label>
+                    <input type="number" name="rest" id="rest-minutes" value="5" />
+                </div>
+            </div> -->
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>

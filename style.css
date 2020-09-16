@@ -1,0 +1,208 @@
+body {
+    background: #981E32;
+}
+
+h1 {
+    color: #53565A;
+    font-size:50px;
+    text-align: center;
+    font-family:"NCAA Washington St";src:url("NCAA_Washington_St.eot?") format("eot"),url("NCAA_Washington_St.woff") format("woff"),url("NCAA_Washington_St.ttf") format("truetype"),url("NCAA_Washington_St.svg#NCAAWashingtonSt") format("svg");font-weight:normal;font-style:normal;}
+
+
+/* @font-face kit by Fonts2u (https://fonts2u.com) */ 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  color: #53565A;
+  font-family: "Times New Roman";
+}
+
+
+input {
+  border: 5px solid #53565A;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 2em;
+  color:#53565A;
+  width: 100%;
+}
+
+label {
+  display: block;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+  margin-bottom: 10px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #53565A;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: " ";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: #53565A;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #53565A;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #53565A;
+}
+
+input:checked + .slider:before {
+  transform: translateX(13px);
+}
+
+.container {
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  color: #53565A;
+  user-select: none;
+}
+
+.timer {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: #53565A;
+  border-radius: 50%;
+  position: relative;
+}
+
+.timer::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  height: 290px;
+  width: 290px;
+  background-color:white;
+  border-radius: 50%;
+}
+
+#hand {
+  position: absolute;
+  height: 300px;
+  width: 20px;
+  left: 140px;
+  transition: 1s all linear;
+}
+
+#hand::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid black;
+  top: -19.175px;
+  left: 2px;
+}
+
+#hand::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  top: -10px;
+  border-radius: 50%;
+  background-color: #53565A;
+}
+
+.controls {
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  text-align: center;
+}
+
+.status {
+  margin-bottom: 15px;
+}
+
+.time {
+  width: 100%;
+  text-align: center;
+}
+
+.time::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+#minutes {
+  font-size: 6em;
+  float: left;
+  margin-left: 25%;
+}
+
+#seconds {
+  font-size: 4em;
+  float: left;
+}
+
+button {
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+  margin-top: 10px;
+  border-radius: 50%;
+  font-size: 1.5em;
+  background-color:black;
+  border: none;
+  color: #53565A;
+  cursor: pointer;
+}
+
+.input-group {
+  margin-top: 20px;
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.inputs::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
