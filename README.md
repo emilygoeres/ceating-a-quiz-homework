@@ -34,4 +34,5 @@ Script.js
 -Then stated that the quiz will be over by two different ways:
     -Either the timer runs out of time (Only has 1 minute for quiz)
     -All tn questions have been answered
-Once the time is out or all questions have been answered, a box will pop up and it will ask you to put in your initials. It will then display your initials along with your score
+Once the time is out or all questions have been answered, a box will pop up and it will ask you to put in your initials. It will then display your initials along with your scoreadd .
+
