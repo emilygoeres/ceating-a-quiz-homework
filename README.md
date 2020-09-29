@@ -11,7 +11,7 @@ Index.HTML
 
 Style.css
 -Made the background crimson
--made it so everything iscentered on the page
+-made it so everything is centered on the page
 -Made the font for the questions and title gray
 -Made the answer options and next button black with gray font
 -Made the timer in white font and it counts down once the quiz starts
@@ -36,3 +36,26 @@ Script.js
     -All tn questions have been answered
 Once the time is out or all questions have been answered, a box will pop up and it will ask you to put in your initials. It will then display your initials along with your scoreadd .
 
+What Does the App do?
+The app is a timed quiz, there are a series of questions the user will answer. It will automatically tell you if you answered correctly.
+The quiz will end two different way, one if the time runs out or if your complete the entires quiz.
+At the end of the quiz, there will be an alert box that will pop up and ask you to input your initials. Your score and initals will then be saved in local storage.
+
+Technologies Used:
+Timers
+JavaScript
+Local Storage
+Dynamic Rendering
+
+Link to Deployed App:
+https://emilygoeres.github.io/ceating-a-quiz-homework/
+
+![Coding Quiz](https://github.com/emilygoeres/ceating-a-quiz-homework/settings/blob/master/codequiz1.png)
+![Coding Quiz](https://github.com/emilygoeres/ceating-a-quiz-homework/settings/blob/master/codequiz2.png)
+![Coding uiz](https://github.com/emilygoeres/ceating-a-quiz-homework/settings/blob/master/codequiz3.png)
+![Coding Quiz](https://github.com/emilygoeres/ceating-a-quiz-homework/settings/blob/master/codequiz4.png)
+![Coding Quiz](https://github.com/emilygoeres/ceating-a-quiz-homework/settings/blob/master/codequiz5.png)
+
+
+##### Emily Goeres, 
+### Univeristy of Washington
