@@ -50,12 +50,11 @@ Dynamic Rendering
 Link to Deployed App:
 https://emilygoeres.github.io/ceating-a-quiz-homework/
 
-![Coding Quiz](https://github.com/emilygoeres/ceating-a-quiz-homework/settings/blob/master/codequiz1.png)
-![Coding Quiz](https://github.com/emilygoeres/ceating-a-quiz-homework/settings/blob/master/codequiz2.png)
-![Coding Quiz](https://github.com/emilygoeres/ceating-a-quiz-homework/settings/blob/master/codequiz3.png)
-![Coding Quiz](https://github.com/emilygoeres/ceating-a-quiz-homework/settings/blob/master/codequiz4.png)
-![Coding Quiz](https://github.com/emilygoeres/ceating-a-quiz-homework/settings/blob/master/codequiz5.png)
-![Portfolio](https://github.com/emilygoeres/Responsive-Portfolio-CSS-and-Bootstrap-Homework/blob/master/response3.png)
+![Coding Quiz](https://github.com/emilygoeres/ceating-a-quiz-homework/blob/master/codequiz1.png)
+![Coding Quiz](https://github.com/emilygoeres/ceating-a-quiz-homework/blob/master/codequiz2.png)
+![Coding Quiz](https://github.com/emilygoeres/ceating-a-quiz-homework/blob/master/codequiz3.png)
+![Coding Quiz](https://github.com/emilygoeres/ceating-a-quiz-homework/blob/master/codequiz4.png)
+![Coding Quiz](https://github.com/emilygoeres/ceating-a-quiz-homework/blob/master/codequiz5.png)
 
 
 ##### Emily Goeres, 
